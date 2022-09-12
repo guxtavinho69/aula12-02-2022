@@ -1,14 +1,12 @@
 //App.jsx
-import './App.css'
-import React from 'react';
-import { useForm } from 'react-hook-form';
-
+import RoutesApp from "./Rotas"
 
 function App(){
 
 return(
-  <div>
+  <div className='App'>
 
+    <RoutesApp/>
 
   </div>
 )
